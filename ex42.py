@@ -10,7 +10,6 @@ class Dog(Animal):
 
 ## Cat is-a Animal
 class Cat(Animal):
-
     def __init__(self, name):
         ## Cat is an instance of a Cat
         self.name = name
@@ -21,7 +20,6 @@ class Person(object):
     def __init__(self, name):
         ## Intialize the person object with a name.
         self.name = name
-
         ## Person has-a pet of some kind
         self.pet = None
 
